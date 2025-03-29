@@ -11,7 +11,7 @@ public class FileReaderExample {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName))) {
             // Read and print file contents line by line
             String line;
-            while ((line = bufferedReader.readLine()) != null) {
+            while (( line = bufferedReader.readLine()) != null) {
                 System.out.println(line);
             }
         } catch (FileNotFoundException e) {
