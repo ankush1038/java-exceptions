@@ -18,7 +18,7 @@ public class DivisionDemo {
             int result = numerator / denominator;
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Error: Division by zero is not allowed.");
+            System.out.println("Error: Division by zero is not allowed. ");
         } catch (Exception e) {
             System.out.println("Invalid input. Please enter numeric values only.");
         } finally {
