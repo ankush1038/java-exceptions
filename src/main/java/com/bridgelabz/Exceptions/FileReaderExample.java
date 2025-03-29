@@ -5,7 +5,7 @@ import java.io.*;
 public class FileReaderExample {
     public static void main(String[] args) {
         // Define the file name
-        String fileName = "data.txt";
+        String fileName = "src/main/java/com/bridgelabz/Exceptions/data.txt";
 
         // Try-with-resources to ensure proper resource management
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName))) {
